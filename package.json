@@ -1,0 +1,19 @@
+{
+  "name": "ghu2024sampleapp",
+  "version": "1.0.0",
+  "description": "Sample application for GitHub Universe 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OctopusSolutionsEngineering/GHU2024SampleApp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OctopusSolutionsEngineering/GHU2024SampleApp/issues"
+  },
+  "homepage": "https://github.com/OctopusSolutionsEngineering/GHU2024SampleApp#readme"
+}
