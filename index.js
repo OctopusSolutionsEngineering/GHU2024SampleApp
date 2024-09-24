@@ -12,7 +12,11 @@ app.use(express.static('public'));
 
 // Define a route that renders an HTML template
 app.get('/', (req, res) => {
-    res.render('index', { message: process.env.TITLE || 'Hello World!' });
+    res.render('index', {
+        message: process.env.TITLE || 'Hello World!',
+        environment: process.env.ENVIRONMENT || 'Unknown',
+        version: process.env.VERSION || 'Unknown',
+    });
 });
 
 app.listen(port, () => {
